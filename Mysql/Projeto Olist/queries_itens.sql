@@ -1,6 +1,12 @@
 SELECT * FROM olist.order_items;
-
+use olist;
 describe order_items;
+
+#executa um join entre as tabelas de order itens e querie orders para comparar o valor pedido dos itens não entregues
+select sum(oi.price) + sum(oi.freight_value) as valor_total, od.order_status from order_items oi
+join olist_orders od on od.order_id = oi.order_id
+group by od.order_status
+having od.order_status in ('canceled','unavailable');
 
 alter table order_items
 modify column order_id varchar(40),

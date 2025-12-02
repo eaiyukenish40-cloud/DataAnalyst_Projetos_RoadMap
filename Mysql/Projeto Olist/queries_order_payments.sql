@@ -3,6 +3,8 @@
 SELECT * FROM olist.olist_order_payments LIMIT 5;
 describe olist_order_payments;
 
+SELECT sum(payment_value) from olist_order_payments;
+
 #confere se há algum problema com a coluna payment_type
 select count(payment_type) as contagem_pag, payment_type from olist_order_payments
 group by payment_type;

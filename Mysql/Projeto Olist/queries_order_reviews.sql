@@ -39,3 +39,7 @@ having num > 1;
 select review_id, count(review_id) as num from olist_order_reviews
 group by review_id
 having num > 1;
+
+
+select review_score,  review_comment_title from olist_order_reviews
+where review_score < 4;

@@ -1,5 +1,12 @@
-SELECT *  proFROM olist.olist_products;
+SELECT *  FROM olist.olist_products;
 describe olist.olist_products;
+
+#seleciona as top 10 categorias de produtos vendidos
+select distinct(op.product_category_name) as categoria, sum(qi.price) as totalprice from olist_products op
+join order_items qi on op.product_id = qi.product_id
+where op.product_category_name is not null
+group by categoria
+order by totalprice desc limit 10;
 
 #alterar o tipo primitivo
 alter table olist_products
@@ -59,3 +66,4 @@ SELECT product_width_cm FROM olist.olist_products
 group by product_width_cm
 order by product_width_cm desc;
 #having product_width_cm < 0;
+
