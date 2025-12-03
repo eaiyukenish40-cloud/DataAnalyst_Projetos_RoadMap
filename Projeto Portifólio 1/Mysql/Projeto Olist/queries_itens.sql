@@ -8,6 +8,14 @@ join olist_orders od on od.order_id = oi.order_id
 group by od.order_status
 having od.order_status in ('canceled','unavailable');
 
+#preço médio
+with faturamento_mes as(
+select sum(oi.freight_value + oi.price) as receita_bruta, date_format(od.order_purchase_timestamp,'%Y-%m') as mes from order_items oi
+join olist_orders od on od.order_id = oi.order_id
+group by mes
+)
+select avg(receita_bruta) as media_mes, mes from faturamento_mes;
+
 alter table order_items
 modify column order_id varchar(40),
 modify column order_item_id tinyint,
