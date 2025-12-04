@@ -1,5 +1,6 @@
 # Repositorio_Projetos
-Apresentação de portifólios de projetos e conhecimentos técnicos!
+Repositório dedicado no compartilhamento de conhecimento de exercícios práticos de cursos relacionado a área de dados e tecnologia no geral!
+
 Feedbacks são bem vindos!
 
 
