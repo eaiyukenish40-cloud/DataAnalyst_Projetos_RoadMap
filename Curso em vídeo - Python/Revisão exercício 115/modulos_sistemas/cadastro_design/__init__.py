@@ -22,8 +22,7 @@ def system(b=''):
         try:
             n = int(input('Digite sua opção: '))
         except KeyboardInterrupt:
-            print('\033[0:31mVocê desejou sair do programa\033[m')
-            raise
+            raise print('\033[0:31mVocê desejou sair do programa\033[m')
         except (ValueError,TypeError):
             print('\033[0:31mVocê digitou um valor invalido\033[m')
         except Exception as ex:

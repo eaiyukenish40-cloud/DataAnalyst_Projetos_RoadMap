@@ -13,11 +13,24 @@ while True:
         print('\033[0:33mHouve um problema ao continuar. Tente novamente.\033[m')
         continue
     else:
-        print(f'A opção digitada é{n}')
         if n == 1:
             status = dados_manipul.arq_existe(nome)
             if status is False:
-                print('Deseja criar arquivo?')
+                while True:
+                    try:
+                        o = int(input('Deseja criar arquivo?\n[1].Sim\n[2].Não '))
+                    except KeyboardInterrupt:
+                        raise print('\033[0:31mVocê desejou sair do programa\033[m')
+                    except (ValueError,TypeError):
+                        print('\033[0:31mOpção incorreta tente novamente\033[m.')
+                        continue
+                    else:
+                        if o == 1:
+                            dados_manipul.criar_arquivo(nome)
+                        else:
+                            break
+
+
         elif n == 2:
             print('\033[0:31mArquivo existe\033[m')
         elif n == 3:
