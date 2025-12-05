@@ -29,3 +29,12 @@ def lerArquivo(nome):
         print('Houve um erro na abertura do arquivo')
     else:
         print(a.read())
+
+def cadastro(nome,p='desconhecida',i=0):
+    try:
+        a = open(nome, 'at+')
+    except:
+        print('\033[0:31mHouve um erro na abertura do arquivo\033[m')
+    else:
+        a.write(f'{p};{i}')
+        print(f'Cadastrado com sucesso')

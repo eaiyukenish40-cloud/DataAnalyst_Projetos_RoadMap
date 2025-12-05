@@ -2,6 +2,7 @@
 # O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas as pessoas cadastradas.
 from modulos_sistemas import cadastro_design,dados_manipul
 from time import sleep
+from datetime import date
 print('-' * 40)
 print(f'{'Seja bem vindo ao sistema de cadastro':^40}')
 print('-' * 40)
@@ -22,6 +23,7 @@ while True:
         print('\033[0:33mHouve um problema ao continuar. Tente novamente.\033[m')
         continue
     else:
+        #chama a função de verificação do arquivo.
         if n == 1:
             status = dados_manipul.arq_existe(nome)
             # se não existe o arquivo selecionado, é dado a opção de ser criado
@@ -40,9 +42,14 @@ while True:
                         else:
                             break
             else:
+                #chama a função de leitura do arquivo.
                 dados_manipul.lerArquivo(nome)
+        #cadastra a nova pessoa
         elif n == 2:
-            print('\033[0:31mArquivo existe\033[m')
+            pessoa = str(input('Digite o nome da pessoa a ser cadastrada: '))
+            idade = date.today().year - int(input('Ano de nascimento: '))
+            print(idade)
+            dados_manipul.cadastro(nome, pessoa, idade)
         elif n == 3:
             print('\033[0:33mSaindo do programa...\033[m')
             break
