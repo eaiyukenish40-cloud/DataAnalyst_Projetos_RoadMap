@@ -11,9 +11,6 @@ def arq_existe(nome):
     except:
         print('\033[0:31mHouve um erro ao tentar abrir o arquivo\033[m')
     else:
-
-        print('\033[0:32mArquivo existe\033[m')
-
         print('\033[0:32mArquivo existe\033[m')
 
 def criar_arquivo(nome):
@@ -44,4 +41,3 @@ def cadastro(nome,p='desconhecida',i=0):
     else:
         a.write(f'{p};{i}')
         print(f'Cadastrado com sucesso')
-
