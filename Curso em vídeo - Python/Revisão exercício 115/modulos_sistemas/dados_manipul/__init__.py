@@ -12,3 +12,12 @@ def arq_existe(nome):
         print('\033[0:31mHouve um erro ao tentar abrir o arquivo\033[m')
     else:
         print('\033[0:32mArquivo existe\033[m')
+
+def criar_arquivo(nome):
+    try:
+        a = open(nome, 'wt+')
+        a.close()
+    except:
+        print('\033[0:31mErro ao criar o arquivo\033[m')
+    else:
+        print('\033[0:32mArquivo criado com sucesso\033[m')
