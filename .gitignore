@@ -1,0 +1,30 @@
+# --- Python & Compilados ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais (Pasta que acabamos de criar) ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Poetry ---
+dist/
+poetry.lock 
+# OBS: Alguns times versionam o poetry.lock, outros não. 
+# Para iniciantes, pode deixar fora se quiser evitar conflitos de hash agora, 
+# mas a boa prática de DevOps é versioná-lo. Se quiser versionar, remova a linha acima.
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+
+# --- Ciência de Dados (Jupyter) ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Segurança (CRÍTICO) ---
+.env
+*.pem
+secrets.json
