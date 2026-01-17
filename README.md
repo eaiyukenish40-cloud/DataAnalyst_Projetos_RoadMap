@@ -24,7 +24,15 @@ Foco: Onde o Arquiteto constrói a base sólida.
 - [ ] Como os dados são estruturados (Normalização)
 - [ ] Tipos de Bancos de Dados (Relacional, Não relacional etc...)
 - [X] SQL e Modelagem de Banco de Dados
-- [X] Manipulação no SGBD (Prática de Queries)
+Manipulação no SGBD (Prática de Queries)
+- [ ] CASE WHEN
+- [ ] DISTINCT/COUNT
+- [ ] Estatísticas SQL
+- [ ] Group BY/Having
+- [ ] Cruzamento de dados e Joins
+- [ ] Subqueries e CTE
+- [ ] ENUMERATE/Windows Functions
+- [ ] DDL e DML
 
 ⚡ Ação de Portfólio: Desenhar o Star Schema (Fatos e Dimensões) do seu projeto.
 
