@@ -7,8 +7,8 @@ Repositório dedicado no compartilhamento de conhecimento de exercícios prátic
 Entender o jogo e preparar o terreno.
 
 - [ ] Cultura e Maturidade Analítica (Por que dados geram valor?)
-- [ ] Fundamentos de Google Sheets (Manipulação rápida)
-- [ ] Currículo, Portfólio e Network (Estratégia Sniper)
+- [X] Fundamentos de Google Sheets (Manipulação rápida)
+- [X] Currículo, Portfólio e Network (Estratégia Sniper)
 
 ⚡ Ação de Portfólio: Definir o problema real que seu projeto vai resolver.
 
@@ -22,15 +22,16 @@ Foco: Não ser um "tirador de pedido", mas um solucionador.
 # 03. Estrutura de Dados & SQL (A Fundação)
 Foco: Onde o Arquiteto constrói a base sólida.
 - [ ] Como os dados são estruturados (Normalização)
-- [ ] SQL e Modelagem de Banco de Dados
-- [ ] Manipulação no SGBD (Prática de Queries)
+- [ ] Tipos de Bancos de Dados (Relacional, Não relacional etc...)
+- [X] SQL e Modelagem de Banco de Dados
+- [X] Manipulação no SGBD (Prática de Queries)
 
 ⚡ Ação de Portfólio: Desenhar o Star Schema (Fatos e Dimensões) do seu projeto.
 
 # 04. ETL - Extração, Transformação e Carga de Dados
 Aprender a manipular conjuntos de dados para refinar as informações e possibilitar o processo de análise.
 
-- [ ] Processos de coleta e Limpeza de Dados (Data Wrangling)
+- [X] Processos de coleta e Limpeza de Dados (Data Wrangling)
 - [ ] O processo de ETL: Teoria e aplicação prática
 - [ ] Execução de ETL utilizando SQL
 - [ ] Desafio: Realizar uma Análise Exploratória de Dados (EDA)
@@ -38,9 +39,9 @@ Aprender a manipular conjuntos de dados para refinar as informações e possibil
 # 05. Comunicação e Visualização de Dados
 Comunique seus dados e análises de maneira profissional com técnicas e softwares especializados.
 
-- [ ] Data Storytelling e definição de Produtos de Dados
+- [X] Data Storytelling e definição de Produtos de Dados
 - [ ] Data Studio: Do conceito ao dashboard de sucesso
-- [ ] Visualização de Dados no Tableau
+- [X] Visualização de Dados no Tableau
 - [ ] Visualização de Dados no Power BI
 - [ ] Fundamentos de Power BI: Filtros e fluxos de trabalho profissionais
 
@@ -55,8 +56,8 @@ Aprender a definir indicadores e acompanhar o progresso para tomar decisões de 
 # 07. Python: Fundamentos
 Conceitos básicos de programação aplicados à análise de dados para automação e manipulação.
 
-- [ ] Lógica de programação (Operações, Listas, Dicionários e Estruturas)
-- [ ] Reaproveitamento de códigos com Funções e estruturas condicionais
+- [X] Lógica de programação (Operações, Listas, Dicionários e Estruturas)
+- [X] Reaproveitamento de códigos com Funções e estruturas condicionais
 - [ ] Manipulação e Análise de dados com a biblioteca Pandas
 - [ ] Tópicos avançados e prática de Python voltada para dados
 
