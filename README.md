@@ -24,7 +24,7 @@ Foco: Onde o Arquiteto constrói a base sólida.
 - [ ] Como os dados são estruturados (Normalização)
 - [ ] Tipos de Bancos de Dados (Relacional, Não relacional etc...)
 - [X] SQL e Modelagem de Banco de Dados
-Manipulação no SGBD (Prática de Queries)
+- Manipulação no SGBD (Prática de Queries)
 - [ ] CASE WHEN
 - [ ] DISTINCT/COUNT
 - [ ] Estatísticas SQL
