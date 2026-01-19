@@ -1,2 +1,1 @@
-SELECT IdCliente,QtdePontos,DtCriacao
-FROM Clientes
+.table
