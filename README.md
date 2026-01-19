@@ -50,7 +50,7 @@ Comunique seus dados e análises de maneira profissional com técnicas e softwar
 - [X] Data Storytelling e definição de Produtos de Dados
 - [ ] Data Studio: Do conceito ao dashboard de sucesso
 - [X] Visualização de Dados no Tableau
-- [ ] Visualização de Dados no Power BI
+- [X] Visualização de Dados no Power BI
 - [ ] Fundamentos de Power BI: Filtros e fluxos de trabalho profissionais
 
 # 06. Métricas e Tomada de Decisão com Dados
