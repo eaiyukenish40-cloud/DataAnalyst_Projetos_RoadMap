@@ -1,6 +1,3 @@
--- tabelas: clientes           produtos           transacao_produto  transacoes 
-
-
 -- Tabela transacao_produto: idTransacaoProduto	IdTransacao	IdProduto	QtdeProduto	vlProduto
 
 -- Tabela transacoes: IdTransacao	IdCliente	DtCriacao	QtdePontos	DescSistemaOrigem
