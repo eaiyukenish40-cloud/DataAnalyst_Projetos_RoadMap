@@ -25,13 +25,14 @@ Foco: Onde o Arquiteto constrói a base sólida.
 - [ ] Tipos de Bancos de Dados (Relacional, Não relacional etc...)
 - [X] SQL e Modelagem de Banco de Dados
 - Manipulação no SGBD (Prática de Queries)
-- [ ] CASE WHEN
-- [ ] DISTINCT/COUNT
-- [ ] Estatísticas SQL
-- [ ] Group BY/Having
+- [X] CASE WHEN
+- [X] DISTINCT/COUNT
+- [X] Estatísticas SQL
+- [X] Group BY/Having
 - [ ] Cruzamento de dados e Joins
 - [ ] Subqueries e CTE
 - [ ] ENUMERATE/Windows Functions
+- [ ] INDEX
 - [ ] DDL e DML
 
 ⚡ Ação de Portfólio: Desenhar o Star Schema (Fatos e Dimensões) do seu projeto.
@@ -74,9 +75,22 @@ Entender conceitos estatísticos fundamentais para validar análises e reduzir i
 
 - [ ] Variância, Covariância e Probabilidade básica
 - [ ] Teorema de Bayes: Teoria aplicada à prática de negócios
+- [ ] Análise de Retenção com Cohort
+- [ ] Segmentação de clientes com RFM
 - [ ] Desafio Prático: Inferência estatística aplicada
 
-# 09. Fundamentos do Aprendizado de Máquina (Machine Learning)
+# 09 . Modelos de negócio:
+- [ ] Pirâmide de necessidades
+- [ ] Modelos de Negócio
+- [ ] Métricas e KPIs
+
+# 10. Projetos Portifólio:
+- [X] Análise e diagnóstico de uma máquina CNC
+- [X] Análise fluxo de vendas Olist
+- [ ] Análise performance de Projetos e PM's
+- [ ] Análise logística
+
+# EXTRA. Fundamentos do Aprendizado de Máquina (Machine Learning)
 Conhecer os conceitos básicos de modelos preditivos e suas principais aplicações.
 
 - [ ] Como as máquinas aprendem (Supervisionado vs. Não-Supervisionado)
