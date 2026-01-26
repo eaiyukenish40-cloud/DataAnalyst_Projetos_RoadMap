@@ -17,7 +17,7 @@ df["nomes"] = series_nomes
 df["idades"] = pd.Series(idades)
 
 # %%
-df.iloc[2]
+df.iloc[1]
 # %%
 series_idades['a']
 # %%
