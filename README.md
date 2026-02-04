@@ -29,10 +29,10 @@ Foco: Onde o Arquiteto constrói a base sólida.
 - [X] DISTINCT/COUNT
 - [X] Estatísticas SQL
 - [X] Group BY/Having
-- [ ] Cruzamento de dados e Joins
-- [ ] Subqueries e CTE
-- [ ] ENUMERATE/Windows Functions
-- [ ] INDEX
+- [X] Cruzamento de dados e Joins
+- [X] Subqueries e CTE
+- [X] ENUMERATE/Windows Functions
+- [X] INDEX
 - [ ] DDL e DML
 
 ⚡ Ação de Portfólio: Desenhar o Star Schema (Fatos e Dimensões) do seu projeto.
@@ -41,7 +41,7 @@ Foco: Onde o Arquiteto constrói a base sólida.
 Aprender a manipular conjuntos de dados para refinar as informações e possibilitar o processo de análise.
 
 - [X] Processos de coleta e Limpeza de Dados (Data Wrangling)
-- [ ] O processo de ETL: Teoria e aplicação prática
+- [X] O processo de ETL: Teoria e aplicação prática
 - [ ] Execução de ETL utilizando SQL
 - [ ] Desafio: Realizar uma Análise Exploratória de Dados (EDA)
 
@@ -52,7 +52,7 @@ Comunique seus dados e análises de maneira profissional com técnicas e softwar
 - [ ] Data Studio: Do conceito ao dashboard de sucesso
 - [X] Visualização de Dados no Tableau
 - [X] Visualização de Dados no Power BI
-- [ ] Fundamentos de Power BI: Filtros e fluxos de trabalho profissionais
+- [X] Fundamentos de Power BI: Filtros e fluxos de trabalho profissionais
 
 # 06. Métricas e Tomada de Decisão com Dados
 Aprender a definir indicadores e acompanhar o progresso para tomar decisões de negócio.
@@ -67,7 +67,7 @@ Conceitos básicos de programação aplicados à análise de dados para automaç
 
 - [X] Lógica de programação (Operações, Listas, Dicionários e Estruturas)
 - [X] Reaproveitamento de códigos com Funções e estruturas condicionais
-- [ ] Manipulação e Análise de dados com a biblioteca Pandas
+- [X] Manipulação e Análise de dados com a biblioteca Pandas
 - [ ] Tópicos avançados e prática de Python voltada para dados
 
 # 08. Estatística para Analista de Dados
