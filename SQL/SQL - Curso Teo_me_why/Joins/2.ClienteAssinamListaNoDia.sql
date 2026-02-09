@@ -6,10 +6,11 @@
 
 -- Tabela produtos: IdProduto	DescNomeProduto	DescDescricaoProduto	DescCategoriaProduto
 
+-- Qual clientes assinaram a lista de presença no dia 25/08/2025?
 
 SELECT
-t.IdCliente,
-substr(t.DtCriacao,1,10) AS Datas
+    t.IdCliente,
+    substr(t.DtCriacao,1,10) AS Datas
 FROM transacoes t
 LEFT JOIN transacao_produto tp ON tp.IdTransacao = t.IdTransacao
 LEFT JOIN produtos p ON p.IdProduto = tp.IdProduto

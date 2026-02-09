@@ -6,13 +6,15 @@
 
 -- Tabela produtos: IdProduto	DescNomeProduto	DescDescricaoProduto	DescCategoriaProduto
 
+-- Clientes antigos tem mais frequencia de transação?
+
 SELECT
-COUNT(DISTINCT t.IdTransacao) AS QtdeTransacao,
-t.IdCliente,
-c.DtCriacao
+    COUNT(DISTINCT t.IdTransacao) AS QtdeTransacao,
+    t.IdCliente,
+    CAST(julianday('now') - julianday(substr(c.DtCriacao,1,19)) AS INT) AS DiasDesdeCadastro
 FROM transacoes t
 LEFT JOIN clientes c ON c.IdCliente = t.IdCliente
-GROUP BY t.IdCliente
-ORDER BY QtdeTransacao DESC
-LIMIT 10
+GROUP BY t.IdCliente, DiasDesdeCadastro
+ORDER BY DiasDesdeCadastro DESC, QtdeTransacao DESC
+
 

@@ -6,6 +6,7 @@
 
 -- Tabela produtos: IdProduto	DescNomeProduto	DescDescricaoProduto	DescCategoriaProduto
 
+--Quantos cliente assinaram a lista de presença entre os dias 25/08/2025 e 30/08/2025?
 
 SELECT
 p.DescNomeProduto,

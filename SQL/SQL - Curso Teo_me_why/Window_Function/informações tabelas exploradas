@@ -1,0 +1,27 @@
+-- Tabela transacao_produto: idTransacaoProduto	IdTransacao	IdProduto	QtdeProduto	vlProduto
+
+-- Tabela transacoes: IdTransacao	IdCliente	DtCriacao	QtdePontos	DescSistemaOrigem
+
+-- Tabela clientes: idCliente	flEmail	flTwitch	flYouTube	flBlueSky	flInstagram	qtdePontos	DtCriacao	DtAtualizacao
+
+-- Tabela produtos: IdProduto	DescNomeProduto	DescDescricaoProduto	DescCategoriaProduto
+
+-- Qual o dia da semana mais ativo de cada usuário?
+
+WITH tabela_transacoes AS(
+    SELECT
+        COUNT(DISTINCT IdTransacao) as numTransacoes,
+        substr(DtCriacao,1,10) as DataDia
+    FROM transacoes
+    GROUP BY DataDia
+),
+rankDiasAtivos AS (
+    SELECT
+        DataDia,
+        numTransacoes,
+        ROW_NUMBER() OVER(ORDER BY numTransacoes DESC) AS TopDiasAtivos
+    FROM tabela_transacoes
+)
+SELECT*
+FROM rankDiasAtivos
+WHERE TopDiasAtivos = 1
