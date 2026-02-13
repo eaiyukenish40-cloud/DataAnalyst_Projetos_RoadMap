@@ -6,6 +6,8 @@
 
 -- Tabela produtos: IdProduto	DescNomeProduto	DescDescricaoProduto	DescCategoriaProduto
 
+-- tendencia de transacoes ao longo do tempo
+
 WITH sumarioDiaCliente AS (
     SELECT
         IdCliente,
