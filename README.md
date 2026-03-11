@@ -21,8 +21,8 @@ Foco: Não ser um "tirador de pedido", mas um solucionador.
 
 # 03. Estrutura de Dados & SQL (A Fundação)
 Foco: Onde o Arquiteto constrói a base sólida.
-- [ ] Como os dados são estruturados (Normalização)
-- [ ] Tipos de Bancos de Dados (Relacional, Não relacional etc...)
+- [x] Como os dados são estruturados (Normalização)
+- [x] Tipos de Bancos de Dados (Relacional, Não relacional etc...)
 - [X] SQL e Modelagem de Banco de Dados
 - Manipulação no SGBD (Prática de Queries)
 - [X] CASE WHEN
@@ -42,14 +42,13 @@ Aprender a manipular conjuntos de dados para refinar as informações e possibil
 
 - [X] Processos de coleta e Limpeza de Dados (Data Wrangling)
 - [X] O processo de ETL: Teoria e aplicação prática
-- [ ] Execução de ETL utilizando SQL
-- [ ] Desafio: Realizar uma Análise Exploratória de Dados (EDA)
+- [x] Execução de ETL utilizando SQL
+- [x] Desafio: Realizar uma Análise Exploratória de Dados (EDA)
 
 # 05. Comunicação e Visualização de Dados
 Comunique seus dados e análises de maneira profissional com técnicas e softwares especializados.
 
 - [X] Data Storytelling e definição de Produtos de Dados
-- [ ] Data Studio: Do conceito ao dashboard de sucesso
 - [X] Visualização de Dados no Tableau
 - [X] Visualização de Dados no Power BI
 - [X] Fundamentos de Power BI: Filtros e fluxos de trabalho profissionais
@@ -57,9 +56,9 @@ Comunique seus dados e análises de maneira profissional com técnicas e softwar
 # 06. Métricas e Tomada de Decisão com Dados
 Aprender a definir indicadores e acompanhar o progresso para tomar decisões de negócio.
 
-- [ ] Introdução aos KPIs e desenvolvimento de Senso Crítico
-- [ ] O que é uma decisão Data-Driven e estratégias de implementação
-- [ ] Ética na análise de dados, LGPD e Privacidade
+- [x] Introdução aos KPIs e desenvolvimento de Senso Crítico
+- [x] O que é uma decisão Data-Driven e estratégias de implementação
+- [x] Ética na análise de dados, LGPD e Privacidade
 - [ ] Desafio: Definição de KPIs para Tomada de Decisão
 
 # 07. Python: Fundamentos
@@ -68,12 +67,12 @@ Conceitos básicos de programação aplicados à análise de dados para automaç
 - [X] Lógica de programação (Operações, Listas, Dicionários e Estruturas)
 - [X] Reaproveitamento de códigos com Funções e estruturas condicionais
 - [X] Manipulação e Análise de dados com a biblioteca Pandas
-- [ ] Tópicos avançados e prática de Python voltada para dados
+- [x] Tópicos avançados e prática de Python voltada para dados
 
 # 08. Estatística para Analista de Dados
 Entender conceitos estatísticos fundamentais para validar análises e reduzir incertezas.
 
-- [ ] Variância, Covariância e Probabilidade básica
+- [x] Variância, Covariância e Probabilidade básica
 - [ ] Teorema de Bayes: Teoria aplicada à prática de negócios
 - [ ] Análise de Retenção com Cohort
 - [ ] Segmentação de clientes com RFM
