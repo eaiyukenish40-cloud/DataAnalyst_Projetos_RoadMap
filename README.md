@@ -6,7 +6,7 @@ Repositório dedicado no compartilhamento de conhecimento de exercícios prátic
 # 01. Introdução & Empregabilidade (O "Mindset")
 Entender o jogo e preparar o terreno.
 
-- [ ] Cultura e Maturidade Analítica (Por que dados geram valor?)
+- [x] Cultura e Maturidade Analítica (Por que dados geram valor?)
 - [X] Fundamentos de Google Sheets (Manipulação rápida)
 - [X] Currículo, Portfólio e Network (Estratégia Sniper)
 
@@ -35,7 +35,7 @@ Foco: Onde o Arquiteto constrói a base sólida.
 - [X] INDEX
 - [ ] DDL e DML
 
-⚡ Ação de Portfólio: Desenhar o Star Schema (Fatos e Dimensões) do seu projeto.
+- [x]⚡ Ação de Portfólio: Desenhar o Star Schema (Fatos e Dimensões) do seu projeto.
 
 # 04. ETL - Extração, Transformação e Carga de Dados
 Aprender a manipular conjuntos de dados para refinar as informações e possibilitar o processo de análise.
@@ -59,7 +59,7 @@ Aprender a definir indicadores e acompanhar o progresso para tomar decisões de 
 - [x] Introdução aos KPIs e desenvolvimento de Senso Crítico
 - [x] O que é uma decisão Data-Driven e estratégias de implementação
 - [x] Ética na análise de dados, LGPD e Privacidade
-- [ ] Desafio: Definição de KPIs para Tomada de Decisão
+- [x] Desafio: Definição de KPIs para Tomada de Decisão
 
 # 07. Python: Fundamentos
 Conceitos básicos de programação aplicados à análise de dados para automação e manipulação.
@@ -88,6 +88,9 @@ Entender conceitos estatísticos fundamentais para validar análises e reduzir i
 - [X] Análise fluxo de vendas Olist
 - [ ] Análise performance de Projetos e PM's
 - [ ] Análise logística
+- [ ] Seguros
+- [ ] Finanças (Bancos)
+- [ ] Investimentos
 
 # EXTRA. Fundamentos do Aprendizado de Máquina (Machine Learning)
 Conhecer os conceitos básicos de modelos preditivos e suas principais aplicações.
