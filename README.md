@@ -14,7 +14,7 @@ Entender o jogo e preparar o terreno.
 
 # 02. Formulação de Hipóteses (CRISP-DM Fase 1)
 Foco: Não ser um "tirador de pedido", mas um solucionador.
-- [ ] Elaboração e Teste de Hipóteses
+- [x] Elaboração e Teste de Hipóteses
 - [ ] Desafio: Ciclo Analítico (Pensamento crítico)
 
 ⚡ Ação de Portfólio: Escrever 3 perguntas de negócio que seu dataset precisa responder.
@@ -72,7 +72,8 @@ Conceitos básicos de programação aplicados à análise de dados para automaç
 # 08. Estatística para Analista de Dados
 Entender conceitos estatísticos fundamentais para validar análises e reduzir incertezas.
 
-- [x] Variância, Covariância e Probabilidade básica
+- [x] Medidas descritivas e Probabilidade básica
+- [ ] Inferência Estatística
 - [ ] Teorema de Bayes: Teoria aplicada à prática de negócios
 - [ ] Análise de Retenção com Cohort
 - [ ] Segmentação de clientes com RFM
